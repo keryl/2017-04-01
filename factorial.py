@@ -3,5 +3,5 @@ def factorial(x):
         return 1
     return x * fact(x - 1)
 
-x=int(raw_input())
+x=int(input())
 print factorial(x)
